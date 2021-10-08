@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: rgb(223, 221, 221) ;
+    background-image: url(back2.jpg);
     color: #000000;
 
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family:  Helvetica, sans-serif, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif
 
-    font: normal 16px  'Roboto' , sans-serif;
+    
 }
 
 a {
@@ -38,6 +38,16 @@ a:visited {
     display: flex;
     margin-bottom: 30px;
     
+}
+
+.vk2 {
+    width: 15px;
+    height: 15px;
+}
+
+.instagram {
+width: 15px;
+height: 15px;
 }
 
 @media (max-width: 700px) {
@@ -70,29 +80,36 @@ a:visited {
 /* Box Model*/
 
 .container {
-   max-width: 750px ;
+   max-width: 750px;
    margin: auto;
    padding-top: 30px
 }
 
 
 .bg-yellow {
-    background: #fff9dc;
+    background: #4f4f63;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    
+    
 }
 
 .bg-green {
-    background: #e5ffe7;
+    background: #4f4f63;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    font-family: inherit;
+    
 }
 
 .bg-red {
-    background: #ffe5e5;
+    background: #4f4f63;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
 }
 
 .card {
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-
+    
 }
 
 
@@ -104,11 +121,12 @@ a:visited {
     padding: 0 20px;
 }
 .list li {
-    color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 
 .table {
+    color: #fff;
   width: 100%;
 
 }
@@ -177,4 +195,5 @@ a:visited {
 .btn:hover {
     opacity: 0.9;
 }
+
 
