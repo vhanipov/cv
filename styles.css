@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+html {
+    background: url(https://images.hdqwalls.com/download/ios-14-stock-ug-2560x1440.jpg) no-repeat fixed center / cover;; 
+    position: relative;
+    overflow: scroll;
+}
 body {
-    background-image: url(back2.jpg);
+    background: inherit;
+    display: flex;
+    min-height: 100vh;
     color: #000000;
-
     font-size: 16px;
     font-weight: normal;
-    font-family:  Helvetica, sans-serif, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: helvetica
 
     
 }
@@ -25,7 +31,7 @@ a:active {
 }
 
 a:visited {
-    color: gray
+    color: rgb(0, 0, 0)
 }
 .avatar {
     width: 250px;
@@ -50,6 +56,9 @@ width: 15px;
 height: 15px;
 }
 
+
+
+
 @media (max-width: 700px) {
     .info {
         text-align: center;
@@ -67,7 +76,7 @@ height: 15px;
 }
 
 .info p {
-    color: #7c7c7c;
+    color: #000000;
     margin: 0;
     font-style: normal;
     font-weight: none;
@@ -85,65 +94,116 @@ height: 15px;
    padding-top: 30px
 }
 
-
-.bg-yellow {
-    background: #4f4f63;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
-    
-    
+.blog * {
+    position: relative;
 }
 
-.bg-green {
-    background: #4f4f63;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
- ;
-    
-}
 
-.bg-red {
-    background: #4f4f63;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
-}
-
-.card {
-    padding: 15px 20px;
-    margin-bottom: 20px;
+.blog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 690px;
+    height: 300px;
+    box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
+    border: 15px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
+    text-align: center;
+    color: rgb(7, 0, 0);
+    background: inherit;
+    
+    padding: 15px;
+}
+
+.blog:before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    backdrop-filter: blur(20px);
+
+}
+
+.blog2 * {
+    position: relative;
+}
+
+.blog2 {
+    position: relative;
+    float: left;
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    width: 340px;
+    height: 200px;
+    box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
+    border: 15px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    text-align: center ;
+    color: rgb(7, 0, 0);
+    background: inherit;
+    margin-top: 10px;
+    
+    
+
+    
+
+}
+
+.blog2:before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.blog3 * {
+    position: relative;
+}
+
+
+.blog3 {
+    position: relative;
+    float: right;
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    width: 340px;
+    height: 200px;
+    box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
+    border: 15px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    text-align: center ;
+    color: rgb(7, 0, 0);
+    background: inherit;
+    margin-top: 10px;
+    
+    
     
 }
 
-
-.card h2 {
-    margin-bottom: 10px;
+.blog3:before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    backdrop-filter: blur(20px);
 }
 
-.list {
-    padding: 0 20px;
-}
-.list li {
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-}
-
-.table {
-    color: #fff;
-  width: 100%;
-
-}
-
-.table td {
-    padding-bottom: 10px;
-}
-
-.link-list {
-    list-style: none;
-    padding: 0;
-}
-.link-list li {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom:  1px solid #ccc;
-}
 
 .contact {
     text-align: center;
@@ -184,16 +244,19 @@ height: 15px;
 }
 
 .btn{
-   background : rgb(133, 131, 131);
+    background : rgb(177, 175, 175);
     padding: 15px 20px;
     color: #fff;
-    border: none;
+    border-radius: 50px;
     font-family: inherit;
-    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    
+
 }
 
 .btn:hover {
-    opacity: 0.9;
+    
+    color: rgb(146, 146, 146);
 }
-
 
