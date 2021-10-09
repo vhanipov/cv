@@ -159,8 +159,8 @@ height: 15px;
     bottom: 0;
     right: 0;
     background: inherit;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-backdrop-filter: url(#blur);
             backdrop-filter: url(#blur);
 
@@ -204,8 +204,8 @@ height: 15px;
     bottom: 0;
     right: 0;
     background: inherit;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-backdrop-filter: url(#blur);
             backdrop-filter: url(#blur);
 }
@@ -250,8 +250,8 @@ height: 15px;
     bottom: 0;
     right: 0;
     background: inherit;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-backdrop-filter: url(#blur);
             backdrop-filter: url(#blur);
 }
