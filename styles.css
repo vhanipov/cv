@@ -126,6 +126,7 @@ height: 15px;
     right: 0;
     background: inherit;
     backdrop-filter: blur(20px);
+    filter: url(#blur);
 
 }
 
@@ -164,7 +165,7 @@ height: 15px;
     right: 0;
     background: inherit;
     backdrop-filter: blur(20px);
-    
+    filter: url(#blur);
 
 }
 
@@ -202,6 +203,7 @@ height: 15px;
     right: 0;
     background: inherit;
     backdrop-filter: blur(20px);
+    filter: url(#blur);
 }
 
 
