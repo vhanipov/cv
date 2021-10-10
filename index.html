@@ -2,13 +2,29 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>VHanipov CV</title>
+    <meta name="viewport" content="width=device-width">
+    <title>VHanipov Главная</title>
 <link href="styles.css" 
 rel="stylesheet">
 </head>
 <body>
+  
     
-    <div class="container">
+      <div class="container">
+        <div class="burger-menu">
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-btn" for="menu-toggle">
+            <span></span>
+          </label>
+       
+          <ul class="menubox">
+                  <li><a class="menu-item" href="index.html">Главная</a></li>
+                  <li><a class="menu-item" href="portfolio.html">Мои проекты</a></li>
+                  <li><a class="menu-item" href="myblog.html">Блог</a></li>
+                  <li><a class="menu-item" href="contacts.html">Контакты</a></li>
+                  <li><a class="menu-item" href="сourses.html">Обучающее курсы</a></li>
+          </ul>
+        </div>
             <div class="info">
               <img src="avatar.JPG"  alt="фото красавчика" class="avatar" />
 
@@ -38,28 +54,15 @@ rel="stylesheet">
                  </span>
                 
             </div>
-
+      <div class="conteiner-blog">
             <div class="blog2">
               
               <a href="portfolio.html"> <h2>Мои проекты</h2> </a>
             </div>
 
             <div class="blog3">
-              <h2>Что нибудь</h2>
-
-            </div>
-
-            
-
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <filter id="blur">
-                  <feGaussianBlur stdDeviation="6"></feGaussianBlur>
-                </filter>
-              </svg>
-
               
-
-            <div class="contact">
+              <div class="contact">
                 <h2>Связаться со мной:</h2> 
 
                 <form action="/index.html" >
@@ -91,15 +94,28 @@ rel="stylesheet">
 
             </div>
 
-         <div style="margin-bottom: 200px;"></div>
-         
 
 
-        </div>
+
+            </div>
+            <div style="margin-bottom: 500px;;"></div>
+          </div>
+
+   </div>
+
             
-          
-     
-    
 
+              
+
+           
+
+
+           
+        
+    
+  
 </body>
+
+
+
 </html>
