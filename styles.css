@@ -87,7 +87,7 @@ height: 15px;
     }
 }
 .info-text {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
@@ -110,8 +110,8 @@ height: 15px;
 
 .container {
    max-width: 750px;
-   margin: 0px auto;
-   padding: 0px 15px;
+   margin: auto;
+   padding: 30px;
   
   
    
