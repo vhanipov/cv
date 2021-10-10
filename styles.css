@@ -342,7 +342,7 @@ height: 15px;
     align-items: center;
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -373,13 +373,13 @@ height: 15px;
     position: fixed;
     visibility: hidden;
     top: 0;
-    left: -100%;
+    right: -100%;
     width: 300px;
     height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: rgba(36, 35, 35, 0.322);
+    background-color: rgba(24, 23, 23, 0.527);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
   }
@@ -415,7 +415,7 @@ height: 15px;
   }
   #menu-toggle:checked ~ .menubox{
     visibility: visible;
-    left: 0;
+    right: 0;
   } 
    
   
