@@ -22,7 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html {
-    background: url(https://images.hdqwalls.com/download/ios-14-stock-ug-2560x1440.jpg) no-repeat fixed center / cover;; 
+    background: url(https://mobimg.b-cdn.net/v3/fetch/a2/a21e1a6691a84d05d43e15576de83449.jpeg) no-repeat fixed center / cover;; 
     position: relative;
     overflow: scroll;
 }
@@ -120,141 +120,7 @@ height: 15px;
    padding-top: 30px
 }
 
-.blog * {
-    position: relative;
-}
 
-
-.blog {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-    width: 690px;
-    height: 300px;
-    -webkit-box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-            box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-    border: 15px solid rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    text-align: center;
-    color: rgb(7, 0, 0);
-    background: inherit;
-    
-    padding: 15px;
-}
-
-.blog:before {
-    content: ''; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: inherit;
-    -webkit-backdrop-filter: blur(100px);
-            backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: url(#blur);
-            backdrop-filter: url(#blur);
-
-}
-
-.blog2 * {
-    position: relative;
-}
-
-.blog2 {
-    position: relative;
-    float: left;
-    display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: auto;
-    width: 340px;
-    height: 200px;
-    -webkit-box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-            box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-    border: 15px solid rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    text-align: center ;
-    color: rgb(7, 0, 0);
-    background: inherit;
-    margin-top: 10px;
-    
-    
-
-    
-
-}
-
-.blog2:before {
-    content: ''; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: inherit;
-    -webkit-backdrop-filter: blur(100px);
-            backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: url(#blur);
-            backdrop-filter: url(#blur);
-}
-    
-
-
-
-.blog3 * {
-    position: relative;
-}
-
-
-.blog3 {
-    position: relative;
-    float: right;
-    display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: auto;
-    width: 340px;
-    height: 200px;
-    -webkit-box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-            box-shadow: 1px 1px 4px rgba(14, 14, 14, .3);
-    border: 15px solid rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    text-align: center ;
-    color: rgb(7, 0, 0);
-    background: inherit;
-    margin-top: 10px;
-    
-    
-    
-}
-
-.blog3:before {
-    content: ''; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: inherit;
-    -webkit-backdrop-filter: blur(100px);
-            backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: url(#blur);
-            backdrop-filter: url(#blur);
-}
 
 
 .contact {
