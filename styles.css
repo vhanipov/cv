@@ -63,19 +63,26 @@ a:visited {
 }
 .avatar {
     width: 250px;
-    border-radius: 20px;
+    border-radius: 28px;
     -webkit-box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
             box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
 }
 
 
 .info {
+    display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
+    margin-bottom: 20px;
     margin-top: 20px;
-    margin-bottom: 30px;
-    
 }
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
 
 .vk2 {
     width: 15px;
@@ -87,12 +94,7 @@ width: 15px;
 height: 15px;
 }
 
-@media (max-width: 767px) {
-    .info {
-        text-align: center;
-        display:block;
-    }
-}
+
 .info-text {
     margin-left: 40px;
 }
@@ -119,7 +121,7 @@ height: 15px;
     max-width: 1200px;
    margin: 0px auto;
    padding: 0px 15px;
-  
+  align-content: center;
   
    
 }
@@ -145,7 +147,7 @@ height: 15px;
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 15px 15px 0;
-    width: 550px;
+    width: 500px;
     height: 350px;
     border-radius: 20px;
     border: 1px solid rgba(243, 237, 237, 0.5);
@@ -344,8 +346,7 @@ height: 15px;
   } 
    
 
-      
-  
+
   
 
   
