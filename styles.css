@@ -350,6 +350,16 @@ height: 15px;
             left: 540px;
         }
 }
-  
 
+@media (max-width: 847px) {
+    #line_block * {
+        position: static;
+    }
+
+}
   
+@media (max-width: 847px) {
+    #line_block {
+        position: static;
+    }
+}
