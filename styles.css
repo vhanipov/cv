@@ -345,8 +345,11 @@ height: 15px;
     right: 0;
   } 
    
-
-
+@media (max-width: 565px) {
+        .menu-btn {
+            left: 540px;
+        }
+}
   
 
   
