@@ -369,6 +369,11 @@ a:visited {
 	#line_block {
 		
 		margin-right: 0;
+		position: static;
+	}
+
+	#line_block:before {
+		content: none;
 	}
 	
 
@@ -389,12 +394,15 @@ a:visited {
 	}
 	.menu-btn {
 		display: block;
+        margin-left: 10px;
 	}
 	.menubox {
 		display: block;
 	}
+    .wrapper {
+        margin-top: 10px;
+        padding-top: 0px;
+
+    }
 }
-
-
-
 
